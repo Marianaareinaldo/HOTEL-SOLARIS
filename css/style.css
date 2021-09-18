@@ -1,0 +1,13 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.navbar{
+    background-color: rgba(192, 173, 63, 0.269) !important;
+}
+
+.navbar a{
+    color: rgb(196, 155, 18) !important;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
