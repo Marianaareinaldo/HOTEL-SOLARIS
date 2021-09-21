@@ -1,52 +1,40 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-
-body{
+body {
     color: rgba(2, 2, 2, 0.822) !important;
 }
 
-.navbar{
+.navbar {
     background-color: rgba(14, 60, 152, 0.982) !important;
 }
 
-.navbar a{
+.navbar a {
     color: rgb(24, 23, 21) !important;
     font-size: 20px;
     font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
-
 }
 
-.location{
+.location {
     width: 100%;
     height: 300px;
     text-align: center;
     padding-top: 130px;
     font-family: 'Gluten', cursive;
     background-color: rgba(244, 236, 232, 0.427);
-
 }
 
-
-
-
-
 @media screen and (max-width: 480px) {
-    .h1{
+    .h1 {
         font-size: 15px !important;
         padding-top: 10px;
     }
 }
 
-
-
-.maps{
+.maps {
     background-color: rgba(216, 209, 206, 0.427);
-
 }
 
-
-
-.h1{
+.h1 {
     width: 100%;
     height: 30px;
     padding-top: 5px;
@@ -56,14 +44,29 @@ body{
     color: white;
 }
 
-.footer-before{
+.footer-before {
     color: white;
     height: 200px;
     background-color: brown;
     background-color: rgb(72, 70, 70);
     text-align: center;
-    
 }
 
+#cadastro,
+#login {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding: 20px 6% 60px 40%;
+    margin: 0 0 10px 0;
+    background: #f7f7f7;
+    border: 1px solid rgba(147, 184, 189, 0.8);
+    border-radius: 5px;
+}
 
-
+.footer-location {
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
