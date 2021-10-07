@@ -15,7 +15,7 @@ body{
 .navbar a{
     color: rgb(122, 82, 8) !important;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .navbar a:hover{
@@ -31,7 +31,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(14, 60, 152, 0.982) !important;
+    background-color: rgb(226, 183, 66) !important;
 }
 
 .navbar a {
